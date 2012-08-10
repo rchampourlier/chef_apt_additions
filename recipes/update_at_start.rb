@@ -1,4 +1,4 @@
-execute "apt-get update (at start)" do
+execute "apt-get-update-at-start" do
   command "apt-get update"
   ignore_failure true
   action :nothing
